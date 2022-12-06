@@ -1,13 +1,37 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body, html{
+    margin: 0;
+    padding: 0;
+    background: #F2F2F2;
 }
+*{
+    box-sizing: border-box;
+}
+.app{
+    height: 300px;
+    background-image: url('/public/assets/bg-desktop-light.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    width: 550px;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 70px;
+    left: 50%;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    color: #fff;
+}
+.leftCount{
+    color: #9495A5;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
